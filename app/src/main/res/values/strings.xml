@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Blog Fasa</string>
+    <string name="title_activity_main">Blog</string>
+
+    <string name="field_postagem_nome">Nome</string>
+    <string name="field_postagem_titulo">Titulo</string>
+    <string name="field_postagem_descricao">Descrição</string>
+    <string name="field_postagem_autor">Autor</string>
+    <string name="field_postagem_imagem_p">URL da Imagem Principal</string>
+    <string name="field_postagem_imagem_s">URL da Imagem Secundaria</string>
+    <string name="action_refresh">Atualizar</string>
+    <string name="action_update">Update</string>
+    <string name="action_delete">Deletar</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_create">Adicionar</string>
+    <string name="title_activity_detalhes_postagem">Detalhes da Postagem</string>
+    <string name="title_activity_cadastrar_postagem">Cadastrar Postagem</string>
+</resources>

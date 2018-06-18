@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CadastrarPostagemActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="101dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/detalhes_postagem_editText_titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_small"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="@string/field_postagem_titulo"
+                tools:layout_editor_absoluteY="322dp" />
+
+            <EditText
+                android:id="@+id/detalhes_postagem_editText_autor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_small"
+                android:ems="10"
+                android:hint="@string/field_postagem_autor"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteY="379dp" />
+
+            <EditText
+                android:id="@+id/detalhes_postagem_editText_descricao"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:hint="@string/field_postagem_descricao"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="446dp" />
+
+            <EditText
+                android:id="@+id/detalhes_postagem_editText_image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_small"
+                android:ems="10"
+                android:hint="@string/field_postagem_imagem_p"
+                android:inputType="textUri"
+                tools:layout_editor_absoluteY="503dp" />
+
+            <EditText
+                android:id="@+id/detalhes_postagem_editText_image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_small"
+                android:ems="10"
+                android:hint="@string/field_postagem_imagem_s"
+                android:inputType="textUri"
+                tools:layout_editor_absoluteY="560dp" />
+    </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
